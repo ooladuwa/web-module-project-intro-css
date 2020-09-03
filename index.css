@@ -52,7 +52,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    border: 3px solid grey;
 }
 html{
     font-size: 62.5%;
@@ -63,20 +63,39 @@ body{
     font-family:Roboto-Mono;
 }
 nav div a{
-
+    display: inline-block;
 }
 .one{
     color:white;
     background-color:#FF764E;
-    border-radius: 25px;
+    border-radius: 2.5rem;
+    display: inline-block
    
 }
 .two{
     color:white;
     background-color:#5ED3EB;
-    border: 2px black radius
-    display:inline-block;
+    border-radius: 2.5rem;
+    display: inline-block
 }
-
-
+.three{
+    color:white;
+    background-color:#FFCD69;
+    border-radius: 2.5rem;
+    display: inline-block
+}
+.head img{
+    border-radius: 50%;
+    height:25%;
+    width:25%;
+}
+.one, .two, .three{
+margin-left: 20%;
+padding: .8%; */
+}
+h1{
+    font-size: 4rem;
+    width:100%
+    text-align:center;
+}
     
